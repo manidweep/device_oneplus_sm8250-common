@@ -1,7 +1,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Whether key handler sends intent when changing slider position -->
-    <string name="config_alertSliderIntent">org.dot.device.DeviceExtras.UPDATE_SLIDER_POSITION</string>
+    <string name="config_alertSliderIntent">org.evolution.oplus.OPlusExtras.slider.UPDATE_SLIDER_POSITION</string>
 
     <!-- Whether device has physical tri state switch -->
     <bool name="config_hasAlertSlider">true</bool>
@@ -45,12 +45,12 @@
          2: gestures only for back, home and overview -->
     <integer name="config_navBarInteractionMode">2</integer>
 
-    <!-- Adaptive charging sysfs node and value for suspend/resume charging -->
-    <string name="config_adaptiveChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
-    <string name="config_adaptiveChargingSuspendValue" translatable="false">1</string>
-    <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
-
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
-    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/battery/fastchg_status</string>
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
+
+    <!-- Smart charging -->
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/devices/virtual/oplus_chg/battery/mmi_charging_enable</string>
+    <string name="config_SmartChargingSuspendValue" translatable="false">0</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 
 </resources>
