@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 The Evolution X Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Kcal red max, min, default-->
+    <string name="kcal_red_max" translatable="false">256</string>
+    <string name="kcal_red_min" translatable="false">0</string>
+    <string name="kcal_red_default" translatable="false">256</string>
+
+    <!-- Kcal green max, min, default-->    
+    <string name="kcal_green_max" translatable="false">256</string>
+    <string name="kcal_green_min" translatable="false">0</string>
+    <string name="kcal_green_default" translatable="false">256</string>
+
+    <!-- Kcal blue max, min, default-->    
+    <string name="kcal_blue_max" translatable="false">256</string>
+    <string name="kcal_blue_min" translatable="false">0</string>
+    <string name="kcal_blue_default" translatable="false">256</string>
+
+    <!-- Kcal saturation max, min, default-->
+    <string name="kcal_saturation_max" translatable="false">383</string>
+    <string name="kcal_saturation_min" translatable="false">128</string>
+    <string name="kcal_saturation_default" translatable="false">255</string>
+
+    <!-- Kcal contrast max, min, default-->
+    <string name="kcal_contrast_max" translatable="false">383</string>
+    <string name="kcal_contrast_min" translatable="false">128</string>
+    <string name="kcal_contrast_default" translatable="false">255</string>
+
+    <!-- Kcal hue max, min, default-->
+    <string name="kcal_hue_max" translatable="false">1536</string>
+    <string name="kcal_hue_min" translatable="false">0</string>
+    <string name="kcal_hue_default" translatable="false">0</string>
+
+    <!-- Kcal value max, min, default-->
+    <string name="kcal_value_max" translatable="false">383</string>
+    <string name="kcal_value_min" translatable="false">128</string>
+    <string name="kcal_value_default" translatable="false">255</string>
+
+    <!-- Maximum brightness max, min, default--> 
+    <string name="max_brightness_max" translatable="false">4095</string>
+    <string name="max_brightness_min" translatable="false">2047</string>
+    <string name="max_brightness_default" translatable="false">2047</string>
+
+    <!-- Adrenoboost max, min, default-->
+    <string name="adrenoboost_max" translatable="false">3</string>
+    <string name="adrenoboost_min" translatable="false">0</string>
+    <string name="adrenoboost_default" translatable="false">0</string>
+
+    <!-- Vibrator strength max, min, default-->
+    <string name="vibrator_strength_max" translatable="false">3</string>
+    <string name="vibrator_strength_min" translatable="false">0</string>
+    <string name="vibrator_strength_default" translatable="false">1</string>
+
+</resources>
